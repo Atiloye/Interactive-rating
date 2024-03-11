@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100%; 
+}
+.main-cont{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 30%;
+}
+.star-img{
+    align-items: center;
+    background-color: rgb(49, 55, 61);
+    border-radius: 50%;
+    display: flex;
+    height: 50px;
+    justify-content: center;    
+    margin-bottom: 1.5rem;
+    width: 50px;
+}
+.text-div{
+    text-align: left;
+    line-height: 1.5;
+}
+.text-div h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.text-div p{
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.ratings{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.rate1,.rate2,.rate3,.rate4,.rate5{
+    background-color:rgb(49, 55, 61);
+    border-radius: 50%;
+    color:hsl(216, 12%, 54%);
+    font-weight: 700;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    transition-duration: 0.5s;
+    width: 100%;
+}
+.rate1:hover{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+.rate2:hover{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+.rate3:hover{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+.rate4:hover{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+.rate5:hover{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+}
+.active, .active:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.button button{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 700;
+    height: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.button button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.after-submit{
+    display: none;
+}
+.submit-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.rating-selection{
+    text-align: center;
+}
+.thanku-text{
+    text-align: center;
+}
+.thanku-text h2{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.thanku-text p{
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+#selectText{
+    color: hsl(25, 97%, 53%);
+}
+
+/* Responsive design */
+@media screen and (max-width:375px) {
+    .main-cont{
+        width: 90%;
+    }
+}
